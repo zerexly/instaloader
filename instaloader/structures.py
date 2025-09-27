@@ -593,7 +593,7 @@ class Post:
             return url_candidates[-1][1]
         return None
 
-    @property
+        @property
     def video_play_count(self) -> Optional[int]:
         """Play count of the video, or None.
 
@@ -601,8 +601,8 @@ class Post:
         if self.is_video:
             return self._field('video_play_count')
         return None
-		
-	@property
+
+    @property
     def video_view_count(self) -> Optional[int]:
         """View count of the video, or None.
 
@@ -610,7 +610,7 @@ class Post:
         if self.is_video:
             return self._field('video_view_count')
         return None
-
+		
     @property
     def video_duration(self) -> Optional[float]:
         """Duration of the video in seconds, or None.
