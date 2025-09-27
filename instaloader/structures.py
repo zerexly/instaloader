@@ -593,7 +593,7 @@ class Post:
             return url_candidates[-1][1]
         return None
 
-        @property
+    @property
     def video_play_count(self) -> Optional[int]:
         """Play count of the video, or None.
 
